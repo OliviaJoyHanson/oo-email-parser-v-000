@@ -4,9 +4,9 @@
 # or whitespace (' ').
 require 'pry'
 
-class EmailAddressParser
+class EmailParser
   attr_reader :email_addresses
-  
+
   def initialize(email_addresses)
     @email_addresses = email_addresses
   end
